@@ -323,7 +323,7 @@ async function displayCoins() {
   try {
     let coins = await getCoins("https://api.coingecko.com/api/v3/coins/list");
 
-    for (let i = 0; i < 100; i++) {
+    for (let i = 0; i < coins.length; i++) {
       let card = "<div id='" + coins[i].symbol + "' class='card'>";
       let body =
         "<div class='card-body'><h5 class='card-title'>" +
