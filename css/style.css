@@ -117,7 +117,7 @@ section {
     line-height: 30px; }
   
   .parallax {
-    background-image: url(/assets/images/cryptobg2.jpg);
+    background-image: url(../assets/images/cryptobg2.jpg);
     height: 500px;    
     background-attachment: fixed;
     background-position: left;
@@ -136,7 +136,7 @@ section {
     display: inline-flex;
     margin: 2px;
     border: 2px solid black;
-    background-image: url("/assets/images/divbg.jpg");
+    background-image: url("../assets/images/divbg.jpg");
     transition: all 0.3s ease; }
   
   .card-body {
@@ -157,10 +157,10 @@ section {
   
   @font-face {
     font-family: moneybold;
-    src: url(/assets/fonts/moneybold.ttf); }
+    src: url(../assets/fonts/moneybold.ttf); }
   @font-face {
     font-family: prototype;
-    src: url(/assets/fonts/Prototype.ttf); }
+    src: url(../assets/fonts/Prototype.ttf); }
   h1, h2 {
     text-align: center; }
   
