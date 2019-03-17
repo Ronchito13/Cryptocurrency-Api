@@ -1,0 +1,582 @@
+body {
+    padding: 0;
+    margin: 0;   
+}
+
+#body{
+    padding: 50px;
+    min-height: 600px;
+}
+
+.logo {
+    width: 100px;
+    position: absolute;
+    top: 5px;
+    left: 10px;
+ }
+
+ h4 {
+    color:blue;
+     text-align: center;
+      text-transform: uppercase;
+      font-weight: 700;
+ }
+
+ .header{
+     margin-top: 50px;
+     padding: 10px; 
+     background-color: #f5f5f5; 
+     }
+  
+  input {
+    height: 30px;
+    width: 200px;
+    background-color: fff;
+    color: #666;
+    font-weight: bold;
+    font-size: 16px;
+    display: inline-block;
+    border-radius: 5px;
+    margin-left: 5px;
+    padding-left: 10px;
+    position: relative;
+    top: 10px; }
+  
+  .title, .sub-title { text-transform: uppercase; text-align: center; }
+  
+  .title {
+    color: #fff;
+    font-style: italic; }
+  
+  .sub-title {
+    color: #999;
+    margin-top: -5px; }
+    
+  
+    .description {
+        text-transform: uppercase;
+        margin: 0 auto;
+        color: #222;
+        font-size: large;
+        text-align: justify;
+        
+    }
+  
+  .center {
+    text-align: center; }
+  
+  .coinImage {
+    text-align: center; }
+  
+  .country {
+    width: 400px;
+    height: 400px;
+    background-color: aquamarine;
+    border: 1px solid black;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 10px; 
+  }
+  
+  #top {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 18px; }
+  
+  #top:hover {
+    background-color: #555; }
+  
+ 
+section {
+    display: grid !important;
+    border-top: 1px solid black;
+    background-color: #f5f5f5; 
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: repeat;
+    background-size: cover;
+    padding-bottom: 50px;
+}
+  
+  footer {
+    border-top: 1px solid black;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #444;
+    line-height: 30px; }
+  
+  .parallax {
+    background-image: url(/assets/images/cryptobg2.jpg);
+    height: 500px;    
+    background-attachment: fixed;
+    background-position: left;
+    background-repeat: repeat;
+    background-size: cover;
+ }
+  
+  #pageBody {
+    padding-top: 20px;
+    margin: 0 30px; }
+  
+  .card {
+    padding: 10px;
+    width: 200px ;
+    min-height: 225px;
+    display: inline-flex;
+    margin: 2px;
+    border: 2px solid black;
+    background-image: url("/assets/images/divbg.jpg");
+    transition: all 0.3s ease; }
+  
+  .card-body {
+    margin-top: 10px; }
+
+    .green { color: green; }
+    .blue { color: blue; }
+    .purple { color: purple;}
+    .bold{font-weight: bold;}
+
+    p {
+        margin: 0px !important;
+    }
+  
+  .center {
+    
+    text-align: center; }
+  
+  @font-face {
+    font-family: moneybold;
+    src: url(/assets/fonts/moneybold.ttf); }
+  @font-face {
+    font-family: prototype;
+    src: url(/assets/fonts/Prototype.ttf); }
+  h1, h2 {
+    text-align: center; }
+  
+  h1 {
+    font-family: moneybold; }
+  
+  h2, h3, h4, h5, h6, p, a {
+    font-family: prototype; }
+  
+  footer > p {
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 5px; }
+  
+  .coinBox > p, .coinBox > h2 {
+    text-align: left;
+    padding: 5px;
+    line-height: 20px;
+    position: absolute; }
+  
+  .coinBox > p {
+    font-size: 12px;
+    margin-top: 50px;
+    max-width: 100px; }
+  
+  .coinBox > h2 {
+    font-size: 24px;
+    font-weight: bold;
+    padding-left: 5px; }
+  
+  .card-title {
+    font-size: 22px;
+    font-weight: bold;
+    font-style: italic;
+    text-transform: uppercase; }
+  
+  .searchButton, #showCoins {
+    -moz-box-shadow: 0px 1px 0px 0px #fff6af;
+    -webkit-box-shadow: 0px 1px 0px 0px #fff6af;
+    box-shadow: 0px 1px 0px 0px #fff6af;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ffec64), color-stop(1, #ffab23));
+    background: -moz-linear-gradient(top, #ffec64 5%, #ffab23 100%);
+    background: -webkit-linear-gradient(top, #ffec64 5%, #ffab23 100%);
+    background: -o-linear-gradient(top, #ffec64 5%, #ffab23 100%);
+    background: -ms-linear-gradient(top, #ffec64 5%, #ffab23 100%);
+    background: linear-gradient(to bottom, #ffec64 5%, #ffab23 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffec64', endColorstr='#ffab23',GradientType=0);
+    background-color: #ffec64;
+    margin: 7px 5px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    border: 1px solid #ffaa22;
+    display: inline-block;
+    cursor: pointer;
+    color: #333333;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 6px 8px;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #ffee66; }
+  
+  .searchButton:hover {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ffab23), color-stop(1, #ffec64));
+    background: -moz-linear-gradient(top, #ffab23 5%, #ffec64 100%);
+    background: -webkit-linear-gradient(top, #ffab23 5%, #ffec64 100%);
+    background: -o-linear-gradient(top, #ffab23 5%, #ffec64 100%);
+    background: -ms-linear-gradient(top, #ffab23 5%, #ffec64 100%);
+    background: linear-gradient(to bottom, #ffab23 5%, #ffec64 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffab23', endColorstr='#ffec64',GradientType=0);
+    background-color: #ffab23; }
+  
+  .searchButton:active {
+    position: relative;
+    top: 1px; }
+  
+  
+  
+     
+    .nav>li a:active {
+        text-decoration: underline;
+        color: red;
+     }
+  
+  .coinInfoBox{
+      padding: 15px;
+  }
+
+  .coinInfoBox > img{
+    width: 50%;
+    margin: 0 30px 20px 30px;
+}
+  
+  
+.space{
+    margin: 15px;
+}
+
+  
+  
+/* Slier toggle css */
+
+.toggleThis{
+    margin-left: 20px;
+    width: 30px !important;
+    height: 30px !important;
+    padding: initial;
+}
+
+.toggleButton, .toggleButtonHeader{
+    position: relative;
+    margin-left: 100px;    
+}
+
+.toggleButtonHeader{
+    text-transform: uppercase;
+    color: #333;
+    font-weight: bold;
+    font-size: 8px;
+    text-align: right;
+    float: right;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    background-color: #999;    
+  }
+
+.floatRight{
+    float: right;
+}
+
+  
+  
+  .switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+
+  .checked {
+    background: linear-gradient(to right, #f12711, #f5af19);
+  }
+  
+  input:checked + .slider {
+    background-color: #2196F3;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+
+  
+  
+
+  .form {
+    margin-top: 40px;
+    margin-left: 40px;
+    width: 343px;
+    height: 333px;
+    padding:30px;
+    border: 1px solid rgba(0,0,0,.2);
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    background: rgba(0, 0, 0, 0.5); 
+    -moz-box-shadow: 0 0 13px 3px rgba(0,0,0,.5);
+    -webkit-box-shadow: 0 0 13px 3px rgba(0,0,0,.5);
+    box-shadow: 0 0 13px 3px rgba(0,0,0,.5);
+    overflow: hidden; 
+}
+
+.form > h3{
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: large;
+    font-weight: bold;
+    }
+
+    .form > h4{
+        color: #999;
+        text-align: center;
+        text-transform: uppercase;
+        font-size: medium;
+        margin-top: 30px;
+        line-height: 150%;
+        }
+
+        
+
+
+        /* The Modal */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 50%; /* Could be more or less, depending on screen size */
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+
+  #modalPop > h4, #modalPop > h6 {
+      text-align: center;
+      line-height: 20px;      
+  }
+
+  #modalPop > h4 {
+  font-weight: bold;
+}
+
+#modalPop > p{
+    text-align: left;
+}
+
+
+
+
+/* Charts  */
+#chartContainer {
+    height: 500px;
+    width: 96%;
+    padding: 5px;   
+    margin: 20px; 
+}
+
+
+
+
+/* responisive */
+
+@media (min-width: 768px){
+    .navbar-left {    
+        margin-left: 80px !important;
+}
+
+}
+
+
+
+@media screen and (max-width: 767px){
+    input {
+        height: 22px;
+        width: 130px;        
+        position: fixed;
+        top: 14px;
+        right: 33%;
+    }
+
+    #chartContainer {
+        height: 400px;
+        width: 90%;
+        padding: 0;
+        margin: 20px 20px 100px 20px;
+    }
+
+    .ronAbout p {
+        text-align: justify;
+    }
+
+    .half{
+        width: 100% !important;        
+      }
+
+    #canvas{
+        border: solid 1px blue;  
+        width: 100%;
+      }
+
+      .projectDescrition{
+          margin-bottom: 100px;
+      }
+
+    .card {
+        padding: 20px;
+        width: 100%;
+    }
+
+    .form {
+        margin-left: 0px;
+        width: 100%;
+        height: -webkit-fill-available
+    }
+
+
+    .searchButton {        
+        font-size: 12px;        
+        padding: 3px 3px;        
+        position: fixed;
+        top: 5px;
+        right: 15%;
+    }
+}
+
+/* for photos */
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .col-4{
+      width: 33%;
+      float: left;
+  }
+
+  li{
+    list-style-type: none;
+  }
+
+  #about{
+      padding: 30px 50px;
+  }
+
+  .ronAbout p {
+      text-align: left;
+  }
+
+  .half{
+    width: 50%;    
+    margin: 20px 0;
+  }
+
+  .left {
+      float: left;
+  }
+
+  .ronImage { 
+    text-align: center;
+  }
+
+  
