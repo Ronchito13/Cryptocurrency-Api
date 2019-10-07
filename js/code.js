@@ -50,7 +50,7 @@ function chooseAbout() {
   $("#aboutUs").click(function() {
     $("#about").empty();
     let bodyText =
-      "<div class='ronAbout half left'><p class='description'><u>About Me</u></p><br><p>Hi! My name is Ron. I’m 31 years old and I love to write code scripts for website, build wordpress themes, learn new programming languages and much more. in my free time I'm learning Italian and sing in a rock n roll band.</p><br><p class='description'><u>About the project</u></p><br><p>I built this project with Javascript, HTML, CSS, Bootstrap, Jquery and JSON restful API using Ajax. the main idea of this project is to get information about varity of crypto currency coins using API requests </p></div></div><div class='half left ronImage'><img style='border: 2px solid black;' src='./assets/images/ron.JPG'></div></div>";
+      "<div class='ronAbout half left'><p class='description'><u>About Me</u></p><br><p>Hi! My name is Ron. I’m 31 years old and I love to write code scripts for websites , build colorful wordpress themes, learn new programming languages and much more. in my free time I'm learning Italian and sing in a rock n roll band.</p><br><p class='description'><u>About the project</u></p><br><p>I built this project with Javascript, HTML, CSS, Bootstrap, Jquery and JSON restful API using Ajax. the main idea of this project is to get information about varity of crypto currency coins using API requests </p></div></div><div class='half left ronImage'><img style='border: 2px solid black;' src='./assets/images/ron.JPG'></div></div>";
     $("#about").append(bodyText);
     $("#chartContainer").hide();
     $("#body").hide();
